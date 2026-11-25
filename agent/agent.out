@@ -1,0 +1,74 @@
+[agent] account 0x061978d21ce915956c3B3319B507c45145125d59
+[agent] watching DecisionVault 0x922a6186a383cbac790d1d02ec213ab4145be65f on Base Sepolia
+[agent] model test accuracy 99.8%
+[agent] catch-up scan from vault deployment block 63394746
+[agent] request 1 already decided, skipping
+[agent] request 2 already decided, skipping
+[agent] request 3 already decided, skipping
+[agent] request 4 already decided, skipping
+[agent] request 5 already decided, skipping
+[agent] request 6 already decided, skipping
+[agent] request 7 already decided, skipping
+[agent] request 8 already decided, skipping
+[agent] request 9 already decided, skipping
+[agent] request 10 already decided, skipping
+[agent] request 11 already decided, skipping
+[agent] request 12 already decided, skipping
+[agent] request 13 already decided, skipping
+[agent] request 14 already decided, skipping
+[agent] request 15 already decided, skipping
+[agent] request 16 already decided, skipping
+[agent] request 17 already decided, skipping
+[agent] request 18 already decided, skipping
+[agent] request 19 already decided, skipping
+[agent] request 20 already decided, skipping
+[agent] request 21 already decided, skipping
+[agent] request 22 already decided, skipping
+[agent] request 23: price $2004 window [1997.0, 2003.0, 1999.0, 2006.0, 2001.0, 2005.0, 2002.0, 2004.0] -> HOLD @ 100.0% (probs 1.000/0.000/0.000)
+[agent] request 23: decision posted in tx 0x3cc65e148f6e8442e0ea4c4c34ac38cf2a2e54913f319408ce5695c890e20d6b (status success)
+[agent] request 24: price $1997 window [2003.0, 1999.0, 2006.0, 2001.0, 2005.0, 2002.0, 2004.0, 1997.0] -> HOLD @ 100.0% (probs 1.000/0.000/0.000)
+[agent] request 24: decision posted in tx 0xa44a30bf66baf4b3ec9cf64097d0ce0de9f936ea297913080a5057a6efa72fcc (status success)
+[agent] request 25: price $2003 window [1999.0, 2006.0, 2001.0, 2005.0, 2002.0, 2004.0, 1997.0, 2003.0] -> HOLD @ 100.0% (probs 1.000/0.000/0.000)
+[agent] request 25: decision posted in tx 0xfc8f2b1e703b16308fe57f5dcc0d2b11a37c1022aba77726f187bcf0a390c966 (status success)
+[agent] request 26: price $1999 window [2006.0, 2001.0, 2005.0, 2002.0, 2004.0, 1997.0, 2003.0, 1999.0] -> HOLD @ 100.0% (probs 1.000/0.000/0.000)
+[agent] request 26: decision posted in tx 0xd52570c8b9376e5f11d2856e4ad6f3fc8cf37d82fec2f5afcb2eab2dd762cc8b (status success)
+[agent] request 27: price $2006 window [2001.0, 2005.0, 2002.0, 2004.0, 1997.0, 2003.0, 1999.0, 2006.0] -> HOLD @ 100.0% (probs 1.000/0.000/0.000)
+[agent] request 27: decision posted in tx 0x3f422cd7f316ab229a6d733b191932d0f6d268f9e6dbfecc275dc2c95d9939b3 (status success)
+[agent] request 28: price $2001 window [2005.0, 2002.0, 2004.0, 1997.0, 2003.0, 1999.0, 2006.0, 2001.0] -> HOLD @ 100.0% (probs 1.000/0.000/0.000)
+[agent] request 28: decision posted in tx 0x13bdae67ba2d1f305ea3bca85b1f074185f1e077bf579111bfe4a838a3f4fc71 (status success)
+[agent] request 29: price $2005 window [2002.0, 2004.0, 1997.0, 2003.0, 1999.0, 2006.0, 2001.0, 2005.0] -> HOLD @ 100.0% (probs 1.000/0.000/0.000)
+[agent] request 29: decision posted in tx 0x78c6a49e76d8ad2f1afa7e5d1e2da21e5feb926748705d7ef0c14ff4f0509275 (status success)
+[agent] request 30: price $2002 window [2004.0, 1997.0, 2003.0, 1999.0, 2006.0, 2001.0, 2005.0, 2002.0] -> HOLD @ 100.0% (probs 1.000/0.000/0.000)
+[agent] request 30: decision posted in tx 0xda3f30a7537293a90762e620ec58c753037654f493d10f2faec05679ab1a15a5 (status success)
+[agent] request 31: price $1976 window [1997.0, 2003.0, 1999.0, 2006.0, 2001.0, 2005.0, 2002.0, 1976.0] -> HOLD @ 100.0% (probs 1.000/0.000/0.000)
+[agent] request 31: decision posted in tx 0xba339114b18946315162d1b1f30a8def02c9d8c3e1d92d7c66ee47498a9e60ac (status success)
+[agent] request 32: price $1952 window [2003.0, 1999.0, 2006.0, 2001.0, 2005.0, 2002.0, 1976.0, 1952.0] -> HOLD @ 97.1% (probs 0.971/0.029/0.000)
+[agent] request 32: decision posted in tx 0x844fecf5da6bc3c7c9742324bbff513c747f92fef85e3cf9b9b3be3566c8d649 (status success)
+[agent] request 33: price $1929 window [1999.0, 2006.0, 2001.0, 2005.0, 2002.0, 1976.0, 1952.0, 1929.0] -> HEDGE @ 95.6% (probs 0.044/0.956/0.000)
+[agent] request 33: decision posted in tx 0xafe86085089416c1fb484f43f5f3714c3ad7f4e6d20ab9ec265bd4ddaccf53ee (status success)
+[agent] request 34: price $1906 window [2006.0, 2001.0, 2005.0, 2002.0, 1976.0, 1952.0, 1929.0, 1906.0] -> HEDGE @ 95.7% (probs 0.043/0.957/0.000)
+[agent] request 34: decision posted in tx 0x699b21d8ebf2e4fd607995efc87d9fb3a81a78fc3c9417aec99318b2cb881f2b (status success)
+[agent] request 35: price $1883 window [2001.0, 2005.0, 2002.0, 1976.0, 1952.0, 1929.0, 1906.0, 1883.0] -> HEDGE @ 97.5% (probs 0.025/0.975/0.000)
+[agent] request 35: decision posted in tx 0x94a1c5202f21c7d37222229e1ff0e1bdad37547f1fe4453d15936a20094d9a1a (status success)
+[agent] request 36: price $1861 window [2005.0, 2002.0, 1976.0, 1952.0, 1929.0, 1906.0, 1883.0, 1861.0] -> HEDGE @ 99.2% (probs 0.008/0.992/0.000)
+[agent] request 36: decision posted in tx 0xbada29e25cf9563c234c65ea8908e87726835a63828e6df6d88eab659fc81f99 (status success)
+[agent] request 37: price $1839 window [2002.0, 1976.0, 1952.0, 1929.0, 1906.0, 1883.0, 1861.0, 1839.0] -> HEDGE @ 99.9% (probs 0.001/0.999/0.000)
+[agent] request 37: decision posted in tx 0xe120f61c9cce298513c0e68cf99c63d1b23319f5df79ee9715b741a5ccd42b30 (status success)
+[agent] request 38: price $1817 window [1976.0, 1952.0, 1929.0, 1906.0, 1883.0, 1861.0, 1839.0, 1817.0] -> HEDGE @ 99.9% (probs 0.001/0.999/0.000)
+[agent] request 38: decision posted in tx 0xe6b8290eccd8320eb1fc23c2bd4eb36c54fdcf70b7c663746fa8bc24cdaeb42c (status success)
+[agent] request 39: price $1762 window [1952.0, 1929.0, 1906.0, 1883.0, 1861.0, 1839.0, 1817.0, 1762.0] -> HEDGE @ 95.1% (probs 0.024/0.951/0.025)
+[agent] request 39: decision posted in tx 0xc2fc0970dd70fc64ef368713e89057fc919823aac001ce7669f2e69ff2fad86a (status success)
+[agent] request 40: price $1639 window [1929.0, 1906.0, 1883.0, 1861.0, 1839.0, 1817.0, 1762.0, 1639.0] -> EXIT @ 100.0% (probs 0.000/0.000/1.000)
+[agent] request 40: decision posted in tx 0x64c3f0974dbd443b840944a8a9339af1895186e7dde09e6d2f36355b4afe970d (status success)
+[agent] request 41: price $1606 window [1906.0, 1883.0, 1861.0, 1839.0, 1817.0, 1762.0, 1639.0, 1606.0] -> EXIT @ 100.0% (probs 0.000/0.000/1.000)
+[agent] request 41: decision posted in tx 0xc6ee87372d9eca31da97c18363da93d4a4473ab4b1eaf66f7127fc86973e8bbd (status success)
+[agent] request 42: price $1462 window [1883.0, 1861.0, 1839.0, 1817.0, 1762.0, 1639.0, 1606.0, 1462.0] -> EXIT @ 100.0% (probs 0.000/0.000/1.000)
+[agent] request 42: decision posted in tx 0xacf9d42900cbcc2cc153f84076e5420010e6084502951a98d8561d3ed67a5fb6 (status success)
+[agent] request 43: price $1418 window [1861.0, 1839.0, 1817.0, 1762.0, 1639.0, 1606.0, 1462.0, 1418.0] -> EXIT @ 100.0% (probs 0.000/0.000/1.000)
+[agent] request 43: decision posted in tx 0xf32823754446a4b0178f59dc3157474f436fe5f6b6befcb8b4a060ae3faa2d89 (status success)
+[agent] request 44: price $1305 window [1839.0, 1817.0, 1762.0, 1639.0, 1606.0, 1462.0, 1418.0, 1305.0] -> EXIT @ 100.0% (probs 0.000/0.000/1.000)
+[agent] request 44: decision posted in tx 0x60fb1bfb4e5012a59735cf929ea452eff2d3eb237ce5bc0ce2f96813aa2f6b6c (status success)
+[agent] request 45: price $1253 window [1817.0, 1762.0, 1639.0, 1606.0, 1462.0, 1418.0, 1305.0, 1253.0] -> EXIT @ 99.9% (probs 0.000/0.001/0.999)
+[agent] request 45: decision posted in tx 0xaf032f20c0a28f080b8fdffed5cad668a8baf0f81847fc3f81c9b702c542518f (status success)
+[agent] request 46: price $1215 window [1762.0, 1639.0, 1606.0, 1462.0, 1418.0, 1305.0, 1253.0, 1215.0] -> EXIT @ 99.9% (probs 0.000/0.001/0.999)
+[agent] request 46: decision posted in tx 0xc0ee83dca90662f414e896f9c3392f4b1f2889b4ac81050f84038e3a90430f68 (status success)
