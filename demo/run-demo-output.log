@@ -1,0 +1,129 @@
+=== Sentinel status (before) ===
+sepolia      0.001999999993502812 ETH
+baseSepolia  0.002980180151666877 ETH
+lasna        0.47241435 lREACT
+
+DecisionVault (Base Sepolia)
+  state: Exposed  hedge: 0%
+  decisions executed: 22  (next request id 23)
+  balance: 0.0029768160612 ETH   callback debt: 0 ETH
+SentinelReactive (Lasna)
+  reactions: 22
+  balance: 1.0762044 lREACT   debt: 0 lREACT
+
+=== Starting AI agent (log: agent/agent.out) ===
+
+=== Driving price scenario: calm -> downtrend -> panic ===
+driving scenario "full" (24 price updates)
+  step 1: price $2004  origin tx 0x3a67555589797d2f7df30e2be5efc4eccac9f84631dc59949dbf938a80fb4ac9
+  step 2: price $1997  origin tx 0x9a54faf9d10330ea0d16027fcbc38d7e7cb647e1dbf0dea75d16af1726f84372
+  step 3: price $2003  origin tx 0x384e7fa7a4a861e38fddc12edf8c96548ed94f565b1b4bcd36d260ecce6c7675
+  step 4: price $1999  origin tx 0x743afd66931e7b8d538f84b7f3e66ddf201471626e0c0a3d75041d41880fef35
+  step 5: price $2006  origin tx 0x44fb761accdd1d9d9168336eb6dc0a2bf97db9d41254576516b867782784f267
+  step 6: price $2001  origin tx 0x3f29fe460e73d7931d52eafbb4c29560e103ec3f6c8c8414f46f8a155370779d
+  step 7: price $2005  origin tx 0x3e9085f18af2238d9732ee2fd398d085b6f342acd84195ad87c6a6577d221ba4
+  step 8: price $2002  origin tx 0x8dfa70a5e146cc4d646ec3d5b8be62e066e8fa3899e191038e04064a46c6bfe5
+  step 9: price $1976  origin tx 0x18686652833ecab1fabd435551898a546825a79f011f4c480437dd77f6487ad7
+  step 10: price $1952  origin tx 0x6b7869ce078c2a93d916a740b333906c631f5d94684115665635ab11e8f11215
+  step 11: price $1929  origin tx 0x6ccbc4a12b0870eb135a9d86b36b0695e5b1e1b14c15ee9885c8b7b4bb2a51a9
+  step 12: price $1906  origin tx 0x11d13421d75cc27f2a125b0ee430c0bb88fc78db0ce6cebc659d4cf4c58140f3
+  step 13: price $1883  origin tx 0x880df5a7791d430a47a15e1a4b3e2dd043a3a60f2379ae335ddac015cffbab91
+  step 14: price $1861  origin tx 0x777d788800ad6de61f5425102fa544d043b13815298934776417ff479ebfc81c
+  step 15: price $1839  origin tx 0x3627622a4589062c5a32a04d4e974dd75fe5194b6566222a9369f71054bc2ccc
+  step 16: price $1817  origin tx 0xfac6bf9e33abf428694f5ff23253fc51f7be7e4909248a5ba39b2b163323de3d
+  step 17: price $1762  origin tx 0x3029038ce8a1b58773e1c2cfbc6c7f6c416e7e4270a6d113d09b62c41b62c5d0
+  step 18: price $1639  origin tx 0xb6e901ae4934dc099425eeef63ed4649d88054e11b81928caeddf8972430c9b7
+  step 19: price $1606  origin tx 0x1f1a2ffa2219fae5b2c875cdf3292aeca37aacd2981fb6be04cfc17924441239
+  step 20: price $1462  origin tx 0x14690dba204046d243e74ab4daa734d25f6b12647ad3430d9319897f6e807694
+  step 21: price $1418  origin tx 0x2550230c8c41d1c965ded357b0f106f023db6e4c210b345df1563a1b5b037cae
+  step 22: price $1305  origin tx 0xdb48e7b77bfbfecbd097fe323de8169f4d7299c49a42c2607499d5f8951c55db
+  step 23: price $1253  origin tx 0x79af5b3cf14bc89644a1128051be770565b0a655eee923e5a8406635cc4a2309
+  step 24: price $1215  origin tx 0xcb0196b6cfa22aec0678d8d5059b09ca48b228610175c6e1ba86033bbc67e913
+waiting for all decisions to settle...
+
+final vault state: Exited, hedge 100%
+step | price | action | conf | loop ms
+   1 | $2004 | HOLD | 100.0% | 46000
+   2 | $1997 | HOLD | 100.0% | 8000
+   3 | $2003 | HOLD | 100.0% | 6000
+   4 | $1999 | HOLD | 100.0% | 6000
+   5 | $2006 | HOLD | 100.0% | 5000
+   6 | $2001 | HOLD | 100.0% | 4000
+   7 | $2005 | HOLD | 100.0% | 5000
+   8 | $2002 | HOLD | 100.0% | 4000
+   9 | $1976 | HOLD | 100.0% | 8000
+  10 | $1952 | HOLD | 97.1% | 8000
+  11 | $1929 | HEDGE | 95.6% | 7000
+  12 | $1906 | HEDGE | 95.7% | 6000
+  13 | $1883 | HEDGE | 97.5% | 5000
+  14 | $1861 | HEDGE | 99.2% | 5000
+  15 | $1839 | HEDGE | 99.9% | 4000
+  16 | $1817 | HEDGE | 99.9% | 4000
+  17 | $1762 | HEDGE | 95.1% | 3000
+  18 | $1639 | EXIT | 100.0% | 8000
+  19 | $1606 | EXIT | 100.0% | 7000
+  20 | $1462 | EXIT | 100.0% | 5000
+  21 | $1418 | EXIT | 100.0% | 5000
+  22 | $1305 | EXIT | 100.0% | 8000
+  23 | $1253 | EXIT | 99.9% | 8000
+  24 | $1215 | EXIT | 100.0% | 8000
+evidence written to /home/hatch/workspace/reactive-buildathon/demo/evidence-full.json
+
+=== Agent log (decisions) ===
+[agent] request 27: price $2006 window [2001.0, 2005.0, 2002.0, 2004.0, 1997.0, 2003.0, 1999.0, 2006.0] -> HOLD @ 100.0% (probs 1.000/0.000/0.000)
+[agent] request 27: decision posted in tx 0x3f422cd7f316ab229a6d733b191932d0f6d268f9e6dbfecc275dc2c95d9939b3 (status success)
+[agent] request 28: price $2001 window [2005.0, 2002.0, 2004.0, 1997.0, 2003.0, 1999.0, 2006.0, 2001.0] -> HOLD @ 100.0% (probs 1.000/0.000/0.000)
+[agent] request 28: decision posted in tx 0x13bdae67ba2d1f305ea3bca85b1f074185f1e077bf579111bfe4a838a3f4fc71 (status success)
+[agent] request 29: price $2005 window [2002.0, 2004.0, 1997.0, 2003.0, 1999.0, 2006.0, 2001.0, 2005.0] -> HOLD @ 100.0% (probs 1.000/0.000/0.000)
+[agent] request 29: decision posted in tx 0x78c6a49e76d8ad2f1afa7e5d1e2da21e5feb926748705d7ef0c14ff4f0509275 (status success)
+[agent] request 30: price $2002 window [2004.0, 1997.0, 2003.0, 1999.0, 2006.0, 2001.0, 2005.0, 2002.0] -> HOLD @ 100.0% (probs 1.000/0.000/0.000)
+[agent] request 30: decision posted in tx 0xda3f30a7537293a90762e620ec58c753037654f493d10f2faec05679ab1a15a5 (status success)
+[agent] request 31: price $1976 window [1997.0, 2003.0, 1999.0, 2006.0, 2001.0, 2005.0, 2002.0, 1976.0] -> HOLD @ 100.0% (probs 1.000/0.000/0.000)
+[agent] request 31: decision posted in tx 0xba339114b18946315162d1b1f30a8def02c9d8c3e1d92d7c66ee47498a9e60ac (status success)
+[agent] request 32: price $1952 window [2003.0, 1999.0, 2006.0, 2001.0, 2005.0, 2002.0, 1976.0, 1952.0] -> HOLD @ 97.1% (probs 0.971/0.029/0.000)
+[agent] request 32: decision posted in tx 0x844fecf5da6bc3c7c9742324bbff513c747f92fef85e3cf9b9b3be3566c8d649 (status success)
+[agent] request 33: price $1929 window [1999.0, 2006.0, 2001.0, 2005.0, 2002.0, 1976.0, 1952.0, 1929.0] -> HEDGE @ 95.6% (probs 0.044/0.956/0.000)
+[agent] request 33: decision posted in tx 0xafe86085089416c1fb484f43f5f3714c3ad7f4e6d20ab9ec265bd4ddaccf53ee (status success)
+[agent] request 34: price $1906 window [2006.0, 2001.0, 2005.0, 2002.0, 1976.0, 1952.0, 1929.0, 1906.0] -> HEDGE @ 95.7% (probs 0.043/0.957/0.000)
+[agent] request 34: decision posted in tx 0x699b21d8ebf2e4fd607995efc87d9fb3a81a78fc3c9417aec99318b2cb881f2b (status success)
+[agent] request 35: price $1883 window [2001.0, 2005.0, 2002.0, 1976.0, 1952.0, 1929.0, 1906.0, 1883.0] -> HEDGE @ 97.5% (probs 0.025/0.975/0.000)
+[agent] request 35: decision posted in tx 0x94a1c5202f21c7d37222229e1ff0e1bdad37547f1fe4453d15936a20094d9a1a (status success)
+[agent] request 36: price $1861 window [2005.0, 2002.0, 1976.0, 1952.0, 1929.0, 1906.0, 1883.0, 1861.0] -> HEDGE @ 99.2% (probs 0.008/0.992/0.000)
+[agent] request 36: decision posted in tx 0xbada29e25cf9563c234c65ea8908e87726835a63828e6df6d88eab659fc81f99 (status success)
+[agent] request 37: price $1839 window [2002.0, 1976.0, 1952.0, 1929.0, 1906.0, 1883.0, 1861.0, 1839.0] -> HEDGE @ 99.9% (probs 0.001/0.999/0.000)
+[agent] request 37: decision posted in tx 0xe120f61c9cce298513c0e68cf99c63d1b23319f5df79ee9715b741a5ccd42b30 (status success)
+[agent] request 38: price $1817 window [1976.0, 1952.0, 1929.0, 1906.0, 1883.0, 1861.0, 1839.0, 1817.0] -> HEDGE @ 99.9% (probs 0.001/0.999/0.000)
+[agent] request 38: decision posted in tx 0xe6b8290eccd8320eb1fc23c2bd4eb36c54fdcf70b7c663746fa8bc24cdaeb42c (status success)
+[agent] request 39: price $1762 window [1952.0, 1929.0, 1906.0, 1883.0, 1861.0, 1839.0, 1817.0, 1762.0] -> HEDGE @ 95.1% (probs 0.024/0.951/0.025)
+[agent] request 39: decision posted in tx 0xc2fc0970dd70fc64ef368713e89057fc919823aac001ce7669f2e69ff2fad86a (status success)
+[agent] request 40: price $1639 window [1929.0, 1906.0, 1883.0, 1861.0, 1839.0, 1817.0, 1762.0, 1639.0] -> EXIT @ 100.0% (probs 0.000/0.000/1.000)
+[agent] request 40: decision posted in tx 0x64c3f0974dbd443b840944a8a9339af1895186e7dde09e6d2f36355b4afe970d (status success)
+[agent] request 41: price $1606 window [1906.0, 1883.0, 1861.0, 1839.0, 1817.0, 1762.0, 1639.0, 1606.0] -> EXIT @ 100.0% (probs 0.000/0.000/1.000)
+[agent] request 41: decision posted in tx 0xc6ee87372d9eca31da97c18363da93d4a4473ab4b1eaf66f7127fc86973e8bbd (status success)
+[agent] request 42: price $1462 window [1883.0, 1861.0, 1839.0, 1817.0, 1762.0, 1639.0, 1606.0, 1462.0] -> EXIT @ 100.0% (probs 0.000/0.000/1.000)
+[agent] request 42: decision posted in tx 0xacf9d42900cbcc2cc153f84076e5420010e6084502951a98d8561d3ed67a5fb6 (status success)
+[agent] request 43: price $1418 window [1861.0, 1839.0, 1817.0, 1762.0, 1639.0, 1606.0, 1462.0, 1418.0] -> EXIT @ 100.0% (probs 0.000/0.000/1.000)
+[agent] request 43: decision posted in tx 0xf32823754446a4b0178f59dc3157474f436fe5f6b6befcb8b4a060ae3faa2d89 (status success)
+[agent] request 44: price $1305 window [1839.0, 1817.0, 1762.0, 1639.0, 1606.0, 1462.0, 1418.0, 1305.0] -> EXIT @ 100.0% (probs 0.000/0.000/1.000)
+[agent] request 44: decision posted in tx 0x60fb1bfb4e5012a59735cf929ea452eff2d3eb237ce5bc0ce2f96813aa2f6b6c (status success)
+[agent] request 45: price $1253 window [1817.0, 1762.0, 1639.0, 1606.0, 1462.0, 1418.0, 1305.0, 1253.0] -> EXIT @ 99.9% (probs 0.000/0.001/0.999)
+[agent] request 45: decision posted in tx 0xaf032f20c0a28f080b8fdffed5cad668a8baf0f81847fc3f81c9b702c542518f (status success)
+[agent] request 46: price $1215 window [1762.0, 1639.0, 1606.0, 1462.0, 1418.0, 1305.0, 1253.0, 1215.0] -> EXIT @ 99.9% (probs 0.000/0.001/0.999)
+[agent] request 46: decision posted in tx 0xc0ee83dca90662f414e896f9c3392f4b1f2889b4ac81050f84038e3a90430f68 (status success)
+cat: agent/agent.pid: No such file or directory
+
+=== Sentinel status (after) ===
+sepolia      0.001999999993502812 ETH
+baseSepolia  0.002968632617440626 ETH
+lasna        0.47241435 lREACT
+
+DecisionVault (Base Sepolia)
+  state: Exited  hedge: 100%
+  decisions executed: 46  (next request id 47)
+  balance: 0.00295152359585691 ETH   callback debt: 0 ETH
+SentinelReactive (Lasna)
+  reactions: 46
+  balance: 0.6258492 lREACT   debt: 0 lREACT
+
+Evidence: demo/evidence-full.json   Agent audit log: agent/decisions.log
+Terminated

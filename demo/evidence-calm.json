@@ -1,0 +1,117 @@
+{
+  "scenario": "calm",
+  "generatedAt": "2026-11-25T10:06:24.445Z",
+  "deployments": {
+    "priceFeed": "0x29f91c152b5632bce298181af8e857a3ede94e07",
+    "sentinelReactive": "0x95496865f5b3b313939a3b595c02f86b802427ec",
+    "decisionVault": "0x922a6186a383cbac790d1d02ec213ab4145be65f"
+  },
+  "finalVaultState": "Hedged",
+  "finalHedgeRatioBps": 5000,
+  "steps": [
+    {
+      "seq": 1,
+      "price": 2004,
+      "originTx": "0x93a64bd0157db7530b4baccc8a6677e87c3e9b22448d2f3a7553ade74ad64c2e",
+      "originTime": "2026-11-25T10:05:36.405Z",
+      "reactiveTx": "0x6aae97aa811b64d00b4ba59231f073f621bf1fddc33c7527c89d2bd9883e0d2b",
+      "callbackTx": "0xc21daffce5256a394b2750d0252a024357938a3681fae30e15183230247328bd",
+      "requestId": "15",
+      "decisionTx": "0x857ef56989c8cafdb50939bd845bddc222e92d0a714a9a3b72721501e9726a78",
+      "action": "HOLD",
+      "confidenceBps": 9612,
+      "loopLatencyMs": 11000
+    },
+    {
+      "seq": 2,
+      "price": 1997,
+      "originTx": "0x02c1d8795a50e85007a8bfb61e05d10bab2cd9e7b78874012de32b7ccc339994",
+      "originTime": "2026-11-25T10:05:40.192Z",
+      "reactiveTx": "0xcce033c6f64b119b67e2e3c85ea3ba76d766d5b2d9eb06699414cbe40499fd5f",
+      "callbackTx": "0x5a2179b07aa9b32f966f813dcbb334c977f3ec7ca143892aa058eb2b7669346c",
+      "requestId": "16",
+      "decisionTx": "0xdf032ba12c347c8aafce5eb959376a3498a86d62205ba24516881027b78461b8",
+      "action": "HOLD",
+      "confidenceBps": 10000,
+      "loopLatencyMs": 24000
+    },
+    {
+      "seq": 3,
+      "price": 2003,
+      "originTx": "0x07fea439b8c5fbdb2a2067df684a4f1e49feafc20efbc396d3aad73b0c82f60f",
+      "originTime": "2026-11-25T10:05:44.050Z",
+      "reactiveTx": "0xd08ce326a5f9cc183864f38aa38a13e420a5e45b41540c0161df455db1ea956f",
+      "callbackTx": "0x119afef4e70573a4b583616b5391122b07e26f5bf86ae2037380e1c59f269fc2",
+      "requestId": "17",
+      "decisionTx": "0xd7cf0e5af18a53477ba0d383a85d82b343a30f4a441ae18cd347c62bab0745f2",
+      "action": "HOLD",
+      "confidenceBps": 10000,
+      "loopLatencyMs": 12000
+    },
+    {
+      "seq": 4,
+      "price": 1999,
+      "originTx": "0x469633b9e8e455c17c1dfb08b5c62c7c8fcf7d253d1a8a0fc8028adba4c1d6fb",
+      "originTime": "2026-11-25T10:05:47.894Z",
+      "reactiveTx": "0x5f8e77a6dae33bfbcf59f3eab0e7b8d16e2cfaf6cd11bac34142ce154f598ae5",
+      "callbackTx": "0xffe4946d9ec54fe965b6c7a9d1098a5185bcb4203135a3569cd52d2d2ebf0ced",
+      "requestId": "18",
+      "decisionTx": "0x97279aed160a920fd10c18bd239ad66d774cb5d9e42f63f9e0c7350f6db0785f",
+      "action": "HOLD",
+      "confidenceBps": 10000,
+      "loopLatencyMs": 10000
+    },
+    {
+      "seq": 5,
+      "price": 2006,
+      "originTx": "0x362034ec8e5c65823e06e0815120c0fae3e640696aa1291004d1edb69a80644c",
+      "originTime": "2026-11-25T10:05:51.672Z",
+      "reactiveTx": "0x700799311a2291a0be936e9136a86ffa23a6e36a970c9ab9bbc7ef306fadbb10",
+      "callbackTx": "0x188668e34271154bf5b10f426850935b5a3dd0fb255a6d2fe22da306c6101882",
+      "requestId": "19",
+      "decisionTx": "0xbfe6fa1c4c91a2cea3bc17099f19710b1b360ccb2ae3ccf15a7b5ae66546261b",
+      "action": "HOLD",
+      "confidenceBps": 10000,
+      "loopLatencyMs": 7000
+    },
+    {
+      "seq": 6,
+      "price": 2001,
+      "originTx": "0x642c95b1dc47ed5dc8d2eca3645d31656c651b02332940b6d5d8975349d5bec1",
+      "originTime": "2026-11-25T10:05:55.217Z",
+      "reactiveTx": "0xcc81124883b5cfa7d5288f8688b10c3e3d4631c5fedbac3130c7d8feb5113d5a",
+      "callbackTx": "0xf329b36b0404211b7810158332b3314fb93ed58bf7c3e23a8903e6ea10a5e51c",
+      "requestId": "20",
+      "decisionTx": "0xfd9754a85bf492f77c8c6ff69a31d15728f348b00c41b5e9512ceac2d75f548b",
+      "action": "HOLD",
+      "confidenceBps": 10000,
+      "loopLatencyMs": 11000
+    },
+    {
+      "seq": 7,
+      "price": 2005,
+      "originTx": "0xd253278d88d2ae5e15ef9b63d70530e5bd1836c18508285af892929b381774ad",
+      "originTime": "2026-11-25T10:05:59.035Z",
+      "reactiveTx": "0x0d7832f3465195ce17f640d3c593437e4c182f41845b8ce683b60c83014f7c93",
+      "callbackTx": "0xb8313272049206093d91db64b2ca531e32b1011efef1c63a3f1994e169bb5766",
+      "requestId": "21",
+      "decisionTx": "0x18ed6270f2fda73c2ec20d64bf527df82a3ac850e69d20b09e3f89749f53d389",
+      "action": "HOLD",
+      "confidenceBps": 10000,
+      "loopLatencyMs": 8000
+    },
+    {
+      "seq": 8,
+      "price": 2002,
+      "originTx": "0x7227ea828e257848ac051a6d8d7673ad7bf03cf6483e66a8350549c55c7ee394",
+      "originTime": "2026-11-25T10:06:02.816Z",
+      "reactiveTx": "0xf034baeab900883c10ed53560b0198648bff7cb82a7c2336174b3807a9f8c808",
+      "callbackTx": "0x09039428929475fe0a7f930f3f2e3b71349f9fbde36795c806e6f9df4edbd37c",
+      "requestId": "22",
+      "decisionTx": "0x6b5ec3372a042f6bc67873d4b60dd48f18f355e989b64f17bdc7475009b3d9b6",
+      "action": "HOLD",
+      "confidenceBps": 9999,
+      "loopLatencyMs": 12000
+    }
+  ]
+}
