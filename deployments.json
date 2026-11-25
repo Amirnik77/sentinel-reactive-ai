@@ -1,0 +1,26 @@
+{
+  "deployedAt": "2026-11-25T10:00:18.757Z",
+  "deployer": "0x061978d21ce915956c3B3319B507c45145125d59",
+  "networks": {
+    "baseSepolia": {
+      "chainId": 84532,
+      "rpc": "https://sepolia.base.org",
+      "explorer": "https://sepolia.basescan.org"
+    },
+    "lasna": {
+      "chainId": 5318007,
+      "rpc": "https://lasna-rpc.rnk.dev/",
+      "explorer": "https://lasna.reactscan.net"
+    }
+  },
+  "priceFeed": "0x29f91c152b5632bce298181af8e857a3ede94e07",
+  "sentinelReactive": "0x95496865f5b3b313939a3b595c02f86b802427ec",
+  "decisionVault": "0x922a6186a383cbac790d1d02ec213ab4145be65f",
+  "agent": "0x061978d21ce915956c3B3319B507c45145125d59",
+  "deployTxs": {
+    "priceFeed": "0x2c65a7b6b36c38baf19849345d6a3c597074444b5032c2018b36f869697f84e7",
+    "sentinelReactive": "0x03582053df33acb1f3853585d627ce3123af261e3ca7438c3ce2b00bb32d144a",
+    "decisionVault": "0x66e95a7c59f93bbfb01143c89352960ddaba1a2ee6ebed9b03383f7515b705f9",
+    "setVault": "0x1b9911d095a43f02d9f0d4dae7ddbc56515b2b1a2051584e2b01f4c6036da1ef"
+  }
+}
